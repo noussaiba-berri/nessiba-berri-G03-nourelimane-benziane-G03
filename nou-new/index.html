@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>noussaiba nour</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="navBar" id="navbar">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/01fde937507131.574319fbde271.jpg"
+                class="logo wow wobble">
+            <ul class="wow fadeInDown">
+                <li><a href="#banner" class="active wow headShake">Home</a></li>
+                <li><a href="#about-us" class="wow headShake">About</a></li>
+                <li><a href="#contact-us" class="wow headShake">Contact</a></li>
+            </ul>
+            <div class="navBar-icons wow fadeInDown">
+                <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-bell-512.png">
+                <img src="https://i.pinimg.com/originals/0c/3b/3a/0c3b3adb1a7530892e55ef36d3be6cb8.png">
+                <img src="https://image.flaticon.com/icons/png/512/8/8738.png">
+            </div>
+        </div>
+    </div>
+    <div class="banner" id="banner">
+        <!-- <div class="left-column"></div> -->
+        <div class="inner-content">
+
+            <h1 class="wow bounceInDown">Nobody<span class="s1">can</span></h1>
+            <h3 class="wow bounceInDown">destroy <span class="s2">your derams</span></h3>
+            <p class="wow fadeInDown">Learn How To Make A Website Using HTML And CSS, HTML Website Design Tutorial Step
+                By Step.<br> With :
+                noussaiba berri & benziane nourelimane</p>
+
+            <div class="btn bottons">
+                <button type="button" class="d-btn"> Watch Video</button>
+                <div class="p-btn"> Learn More</div>
+            </div>
+
+
+        </div>
+        <div class="wow fadeInDown right-column">
+            <img src="./cases2.jpg">
+        </div>
+    </div>
+
+    <div class="about-us" id="about-us">
+        <h1 class="wow bounceIn">
+            About-us
+        </h1>
+        <p>
+
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eius, natus error in nostrum enim
+            blanditiis nemo eos hic officiis aliquam, vero reiciendis nobis praesentium, quidem ipsum alias fuga?
+            Doloribus ab tempora cupiditate autem atque laboriosam voluptatibus maxime aspernatur itaque. Lorem ipsum
+            dolor sit, amet consectetur adipisicing elit. Quas minus numquam nam tempora animi, quo deserunt. Soluta
+            explicabo atque laborum modi. Facilis quae, odio labore eligendi culpa magnam facere et quaerat doloremque
+            reiciendis sapiente itaque nulla laborum dolorem accusamus magni ipsam exercitationem! Quos, voluptatum
+            dolorum sequi sed nam sint debitis!
+        </p>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="contact-us" id="contact-us">
+        <div class="left">
+            <div class="top-of-form">
+                <h1 class="wow bounceIn">
+                    Contact Us
+                </h1>
+
+            </div>
+
+
+
+
+            <form action="" method="post">
+                <div class="">
+                    <title>Name</title>
+                    <span>Enter your name : </span>
+                    <input type="text" name="name" placeholder="Enter your name" class="input-field">
+                </div>
+                <div>
+                    <title>Email</title>
+                    <span>Enter your Email : </span>
+                    <input type="email" name="email" placeholder="Enter your Email" class="input-field">
+                </div>
+                <div>
+                    <title>Message</title>
+                    <span>Enter your Message : </span>
+                    <!-- <input type="text-area" placeholder="Enter your Message" class="input-field"> -->
+                    <textarea placeholder="Enter your Message" class="input-field text-area" rows="4" cols="50"
+                        name="text-area"
+                        style="padding: 10px; border: 1px solid rgba(172, 9, 9, 0.822); border-radius:5px ;"></textarea>
+                </div>
+                <input type="submit" value="Submit" class="sub">
+            </form>
+
+            <?php
+    pre_r( $_POST);
+    if( isset ($_POST['submit'])){
+        echo " Name:".$_POST['name'].'<br />';
+        echo "Email".$_POST['email'].'<br />';
+    }
+    ?>
+
+            <?php
+function pre_r ($array){
+    echo '<pre>';
+    print_r( $array );
+    echo '</pre>'
+    
+}
+?>
+        </div>
+
+
+    </div>
+
+
+    <footer>
+        <p class="copyright">
+            copyright for Strawberries comp. &copy;
+        </p>
+
+        <div class="social-icons">
+            <img src="https://d1yei2z3i6k35z.cloudfront.net/112505/5e2eee19e8805_facebook-logo.png">
+            <img src="https://i.pinimg.com/originals/63/9b/3d/639b3dafb544d6f061fcddd2d6686ddb.png">
+            <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png">
+        </div>
+    </footer>
+
+    <img src="/Users/mac/Downloads/lychees-732x549-thumbnail.jpg">
+
+
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/js.js"></script>
+
+
+</body>
+
+
+
+
+</html>

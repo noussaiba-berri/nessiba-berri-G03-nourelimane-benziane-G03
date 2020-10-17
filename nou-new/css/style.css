@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif; 
+  }
+  .active{
+      color: rgba(172, 9, 9, 0.822) !important;
+  }
+  /* .hero{
+    width: 80%;
+    margin: auto;
+  } */
+  /*navbar */
+  .navBar{
+    margin: 20px auto;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0px 3px 25px rgba(0, 0, 0 , 18%);
+    position: fixed;
+    top: 0px;
+    transition: 0.5s;
+  }
+  .logo{
+    width:88px;
+    margin: 40px;
+  }
+  ul{
+    flex: 1;
+    text-align: center;
+  }
+  ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+  }
+  ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+  }
+  ul li a:hover{
+      color: rgba(172, 9, 9, 0.822);
+  }
+  .navBar-icons img{
+    height: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+  }
+  .navBar-icons{
+    margin-left: 40px;
+  }
+  /*the first section*/
+  .banner{
+    display: flex;
+    margin-top:120px;
+    height: 100vh;
+  }
+  .left-column,.right-column{
+    flex-basis: 50%;
+  }
+  .banner .inner-content{
+      margin: 40px 20px 0 200px;
+  }
+  .right-column img{
+  width:100%;
+  }
+  .banner h1{
+    font-size: 100px;
+  }
+  .banner h3{
+    font-size: 35px;
+  }
+  .s1{
+    color:rgba(172, 9, 9, 0.822);
+  }
+  .s2{
+    color:rgba(172, 9, 9, 0.822);
+  }
+  p{
+    font-size: 14px;
+    color: #999;
+    margin: 50px 0;
+    line-height: 1.8;
+  }
+  .btn button{
+  padding: 7px 30px;
+  margin-right:35px;
+  margin-top: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid red;
+  border-radius: 20px;
+  cursor: pointer;
+  color: red;
+  background: transparent;
+  }
+  .btn button:hover{
+    background: linear-gradient( #f14a60 ,#fb7381);
+  }
+  .btn .p-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(172, 9, 9, 0.822);
+    border: 1px solid rgba(172, 9, 9, 0.822);
+    border-radius:5px;
+    font-size: 17px;
+    width: 130px;
+    height: 40px;
+    padding: 10px !important;
+    margin-top: 50px;
+  }
+  .btn .d-btn{
+    background: linear-gradient(#fb7381, #f14a60);
+    box-shadow: 0 2px 15px rgba(248,38,103,0.26);
+    color: #fff;
+  }
+  .bottons{
+      display: flex;
+      align-items: center;
+  }
+  .btn{
+    margin-bottom: 50px;
+  }
+  .right-column img{
+    width: 350px;
+    margin: 100px 0px 0px 100px;
+  }
+
+/*About us */
+  .about-us{
+      text-align: center;
+      margin-bottom: 50px;
+  }
+  .about-us p {
+    margin: 40px auto;
+    width: 80%;
+    line-height: 1.7;
+  }
+
+  /* contact us */
+  .contact-us{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:200px auto;
+      /* background: url(../strawberry_PNG2595.png)  no-repeat center center/cover ;
+      background-attachment: fixed;
+   */
+  }
+  .contact-us .left{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(172, 9, 9, 0.822);
+      width: 50%;
+      height: 500px;
+  }
+  .contact-us .left form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  .contact-us .left form div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin: 20px;
+  }
+  .contact-us .left form div input{
+      padding: 10px ;
+      border: 1px solid rgba(172, 9, 9, 0.822);
+      border-radius: 5px;
+      width: 400px;
+      margin-right: 10px;
+  }
+  .contact-us .left form  .sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(172, 9, 9, 0.822);
+    border: 1px solid rgba(172, 9, 9, 0.822);
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 17px;
+    width: 130px;
+    height: 40px;
+    padding: 10px !important;
+    margin-top: 10px;
+  }
+/*footer*/
+  footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
+  footer p {
+      margin-bottom: 20px;
+  }
+  footer .social-icons{
+    width:200px;
+    text-align: center;
+    margin-bottom: 20px;
+    opacity: .4;
+  }
+  footer .social-icons img{
+    height: 30px;
+    margin: 0 14px;
+    cursor: pointer;
+  }
